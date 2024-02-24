@@ -1,0 +1,233 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.to-browse {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    padding-left: 50px;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: 3px solid #1C39A3;
+}
+
+a:active {
+    border-bottom: 3px solid #1C39A3;
+    color: #1C39A3;
+}
+
+/* -------------------------------- */
+
+main {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+
+.container-home {
+    display: block;
+    z-index: -1;
+    width: 100%;
+    height: 70rem;
+    background-image: linear-gradient(to top, rgba(6, 18, 30, 0.1), black), url(./assets/e8ed8f415bebe81677f7c80fd0a6250d-transformed\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    transform: rotateY(180deg);
+}
+
+.info {
+    width: auto;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    top: 15%;
+    left: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    transform: rotateY(180deg);
+}
+
+h1 {
+    width: auto;
+    height: auto;
+    font-size: 150px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    font-weight: 900;
+}
+
+#name {
+    width: auto;
+    height: auto;
+    font-size: 200px;
+    line-height: 0.5;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 70px;
+    margin-left: 15px;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.buttons-home {
+    margin-top: 60px;
+}
+
+.contact {
+    margin-top: 75px;
+}
+
+.buttons-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+.buttons-home {
+    display: flex;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    width: 30px;
+}
+
+#linkedin {
+    width: 40px;
+}
+
+#github {
+    width: 40px;
+}
+
+/*---------------------------------*/
+
+.about {
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex: 1;
+}
+
+.container-left {
+    padding: 130px;
+    max-width: 50%;
+}
+
+#title-about {
+    font-size: 85px;
+    border-bottom: 3px solid #1C39A3;
+    text-shadow: none;
+    line-height: 95px;
+}
+
+#title {
+    width: 21rem;
+}
+
+#mail {
+    padding-top: 15px;
+}
+
+.description-about {
+    margin-top: 30%;
+}
+
+.description {
+    font-size: 25px;
+    max-width: 760px;
+    max-height: 300px;
+}
+
+#state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+#name-state {
+    padding: 10px;
+}
+
+hr {
+    border-color: #1C39A3;
+}
+
+.container-right {
+    width: 50%;
+    z-index: 3;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(6, 18, 30, 0.1), black), url(./assets/Imagem\ do\ WhatsApp\ de\ 2024-02-22\ à\(s\)\ 23.55.41_40338d9e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-developer {
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------*/
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.resume {
+    width: 100%;
+    color: #ffffff;
+    padding: 150px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
