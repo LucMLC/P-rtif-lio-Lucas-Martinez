@@ -152,6 +152,7 @@ img {
 /*---------------------------------*/
 
 .about {
+    width: 100%;
     height: 100vh;
     color: #ffffff;
     display: flex;
@@ -207,9 +208,10 @@ hr {
     width: 50%;
     z-index: 3;
     height: 100%;
-    background-image: linear-gradient(to left, rgba(6, 18, 30, 0.1), black), url(./assets/Imagem\ do\ WhatsApp\ de\ 2024-02-22\ à\(s\)\ 23.55.41_40338d9e.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 7%, rgba(23, 1, 1, 0) 50%), linear-gradient(to bottom, rgba(6, 18, 30, 0.1), black), url(./assets/Imagem\ do\ WhatsApp\ de\ 2024-02-22\ à\(s\)\ 23.55.41_40338d9e.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    transform: scale(1);
 }
 
 #img-developer {
@@ -221,13 +223,90 @@ hr {
 .container {
     height: 100vh;
     width: 100%;
+    background-image: linear-gradient(to top, rgba(6, 18, 30, 0.1), black), linear-gradient(to bottom, rgba(6, 18, 30, 0.1), black), url(https://blog.bbbaterias.com.br/wp-content/uploads/2020/04/photo-1534609146522-5d8de8a10058.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .resume {
+    height: 100%;
     width: 100%;
     color: #ffffff;
-    padding: 150px;
+    padding: 100px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-
 }
+
+.personal-skills {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #1C39A3;
+    width: 21rem;
+}
+
+.language {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.tech {
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.technologies {
+    width: 150px;
+    height: 50px;
+}
+
+.training {
+    padding: 10px 10px 10px 90px; 
+    display: flex;
+    flex-direction: column;   
+}
+
+.school{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.devclub{   
+    width: 130PX;
+    height: 80PX;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+
