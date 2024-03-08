@@ -31,14 +31,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffffff;
-    transition: 0.2s;
+    color: #ffffff;   
     cursor: pointer;
-
 }
 
 a:hover {
     border-bottom: 3px solid #1C39A3;
+    cursor: pointer;
 }
 
 a:active {
@@ -56,17 +55,17 @@ article {
     width: 100%;
 }
 
-
 .container-home {
     display: block;
     z-index: -1;
     width: 100%;
-    height: 70rem;
+    height: 100vh;
     background-image: linear-gradient(to top, rgba(6, 18, 30, 0.1), black), url(./assets/e8ed8f415bebe81677f7c80fd0a6250d-transformed\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     transform: rotateY(180deg);
+    object-fit: fill;
 }
 
 .info {
@@ -151,6 +150,29 @@ img {
 }
 
 /*---------------------------------*/
+@media screen and (max-width:1800px) {
+    .info {
+        top: 70px;
+        width: auto;
+
+    }
+
+    h1 {
+        font-size: 130px;
+    }
+
+    #name {
+        font-size: 150px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+}
+
+/*---------------------------------*/
+
+
 
 .about {
     width: 100%;
@@ -199,7 +221,8 @@ img {
 }
 
 #name-state {
-    padding: 10px;
+    margin: 0;
+    padding: 0 10px;
 }
 
 hr {
@@ -219,6 +242,22 @@ hr {
 #img-developer {
     width: 100%;
     height: 100%;
+}
+
+/*--------------------------------------*/
+@media screen and (max-width:1801px) {
+
+    .container-left {
+        padding: 50px;
+    }
+
+    .description-about {
+        margin-top: 5rem;
+    }
+
+    #state {
+        margin-top: 5rem;
+    }
 }
 
 /*--------------------------------------*/
@@ -351,19 +390,49 @@ h4 {
     border: solid 2px #1C39A3;
     box-shadow: #ffffff;
     border-radius: 10px;
+    background-color: rgb(20, 25, 31);
 }
 
-.border{
-    border: solid 2px #1C39A3; 
+.projects:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.container-projects:hover>.projects:not(:hover) {
+    filter: blur(5px);
+    transform: scale(0.9, 0.9);
+}
+
+.visit-the-project {
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.border {
+    border: solid 2px #1C39A3;
     border-radius: 10px;
     text-align: center;
 }
 
 .img-project {
     width: 100%;
+    border-radius: 20px;
 }
 
 .description-project {
     font-size: 15px;
 
+}
+
+/*-----------------------------------*/
+
+footer {
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
