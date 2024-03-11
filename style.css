@@ -213,8 +213,12 @@ img {
 
 @media screen and (max-width:800px) {
 
+.to-browse{
+    width: auto;
+}
+
     .info {
-        width: auto;
+        min-width: 100%;
     }
 
     h3 {
@@ -403,8 +407,6 @@ hr {
         font-size: 15px;
         margin-top: 0%;
     }
-
-
 }
 
 @media screen and (max-width:1100px) {
@@ -783,6 +785,7 @@ h4 {
     .container-projects {
         flex-direction: column;
         display: flex;
+        padding: 25px;
     }
 
     .projetos {
