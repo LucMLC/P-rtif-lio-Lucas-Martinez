@@ -156,6 +156,8 @@ img {
     .info {
         top: 70px;
         width: auto;
+        left: 0;
+        padding: 13rem;
     }
 
     h1 {
@@ -213,24 +215,39 @@ img {
 
 @media screen and (max-width:800px) {
 
-.to-browse{
-    width: auto;
-}
+    .to-browse {
+        width: auto;
+    }
 
     .info {
-        min-width: 100%;
+        padding: 3rem;
+        left: 0;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    #name {
+        width: 100%;
     }
 
     h3 {
         font-size: 2rem;
+        width: 100%;
     }
 
     .buttons-home {
         margin-left: 0;
+        width: 100%;
     }
 
     .buttons-nav {
         width: 8rem;
+    }
+
+    .contact {
+        width: 100%;
     }
 
 }
@@ -671,6 +688,15 @@ h4 {
     .tech {
         gap: 10px;
     }
+}
+
+@media screen and (max-width:800px) {
+
+    .resume {
+        padding-top: 0;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width:500px) {
