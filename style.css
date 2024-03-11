@@ -752,7 +752,7 @@ h4 {
 }
 
 .container-projects:hover>.projects:not(:hover) {
-    filter: blur(2px);
+    filter: grayscale(80%);;
     transform: scale(0.9, 0.9);
 }
 
