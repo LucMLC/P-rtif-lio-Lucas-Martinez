@@ -216,7 +216,7 @@ img {
 @media screen and (max-width:800px) {
 
     .to-browse {
-        width: auto;
+        width: 100%;
     }
 
     .info {
